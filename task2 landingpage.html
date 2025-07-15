@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio ragavan</title>
+  <style>
+    /* Reset & Base Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    /* Navbar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .logo {
+      font-size: 1.8rem;
+      color: #4f46e5;
+    }
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+    .nav-links a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+
+    /* Hero Section */
+    .hero {
+      background-color: #4f46e5;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .hero-content h2 {
+      font-size: 2.5rem;
+    }
+    .hero-content p {
+      margin: 20px 0;
+      font-size: 1.2rem;
+    }
+    .highlight {
+      color: #e0e7ff;
+    }
+    .btn {
+      background-color: white;
+      color: #4f46e5;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* About Section */
+    .about {
+      padding: 60px 20px;
+      text-align: center;
+      background: white;
+    }
+    .about h2 {
+      color: #4f46e5;
+      margin-bottom: 10px;
+    }
+
+    /* Projects Section */
+    .projects {
+      padding: 60px 20px;
+      background-color: #e0e7ff;
+      text-align: center;
+    }
+    .projects h2 {
+      color: #333;
+    }
+    .project-grid {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 30px;
+    }
+    .project-card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      width: 280px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .project-card h3 {
+      color: #4f46e5;
+      margin-bottom: 10px;
+    }
+
+    /* Contact Section */
+    .contact {
+      padding: 60px 20px;
+      text-align: center;
+      background: white;
+    }
+    .contact h2 {
+      color: #4f46e5;
+      margin-bottom: 10px;
+    }
+    .contact a {
+      color: #4f46e5;
+      text-decoration: none;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #4f46e5;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .nav-links {
+        flex-direction: column;
+        gap: 10px;
+      }
+      .project-grid {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation and Hero -->
+  <header class="hero">
+    <nav class="navbar">
+      <h1 class="logo">MyPortfolio</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero-content">
+      <h2>Hello, I'm <span class="highlight">RAGAVAN </span></h2>
+      <p>Aspiring Web Developer | Designer | Coder</p>
+      <a href="#projects" class="btn">View Projects</a>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I'm a beginner web developer passionate about building beautiful and functional websites.
+      I enjoy learning new technologies and improving my design skills.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Project One</h3>
+        <a href="file:///C:/Users/Dell/Desktop/landing%20page/landingpage.html" > reference</a>
+        <p>A simple landing page built with HTML and CSS.</p>
+      </div>
+      <div class="project-card">
+        <h3>Project Two</h3>
+        <a href ="file:///C:/Users/Dell/Desktop/portfolio/portfolio.html" >reference</a>
+        <p>A responsive portfolio layout using Flexbox.</p>
+      </div>
+      
+        
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:ragavand2007@gmail.com">ragavand2007@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/ragavan-d-37457632b/">linkedin.com/in/ragavan-d</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 ragavan. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+
